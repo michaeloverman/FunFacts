@@ -14,7 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Did you know?"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="#80ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,7 +25,8 @@
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="@android:color/white" />
 
     <Button
         android:layout_width="match_parent"
@@ -34,5 +36,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:background="#FFFFFF" />
 </RelativeLayout>
